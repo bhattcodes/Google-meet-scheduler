@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Google Meet Scheduler",
+    "description": "Google Meet Scheduler : Auto join, Auto Leave Scheduled google meetings _abx",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "js": [
+                "background.js"
+            ],
+            "matches": [
+                "<all_urls>"
+                
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab","storage"
+    ],
+    "icons" : {"192" : "googlemeet192x.png"},
+    "browser_action": {
+        "default_icon": "googlemeet192x.png",
+        "default_popup": "home.html"
+    }
+}
