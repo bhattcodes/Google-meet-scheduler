@@ -1,4 +1,4 @@
-# Google-meet-scheduler
+# Google-Meet-Scheduler
 Google Meet Scheduler : Auto join, Auto Leave Scheduled google meetings
 
 
@@ -26,5 +26,9 @@ Then Click on Extension
 (Additional Info : At Exit time it checks number of members present, if number of members present are less than 15 only then it leave the meet)
 -> It is recommended to visit "https://meet.google.com/" before hitting SAVE button.
 
+# AUTHOR:
+Aman Bhatt [ https://github.com/bhattcodes ]
 
-made by: abx
+# LICENSE:
+This project is licensed under the MIT License - see the [LICENSE] file for details
+
